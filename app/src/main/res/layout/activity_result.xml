@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new_background"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="50sp"
+        android:background="@drawable/new_background"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        >
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:background="@drawable/background"
+        android:padding="30dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtTotalQuestionsR"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textColor="#F4F1F1"
+            android:textStyle="bold"
+            android:text="Total Ques:" />
+
+
+        <TextView
+            android:id="@+id/txtQuesR"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textColor="#F4F1F1"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:text="Won: " />
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt_play_again"
+                android:layout_width="wrap_content"
+                android:background="@color/buttonBG"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="22sp"
+                android:padding="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Play Again" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
